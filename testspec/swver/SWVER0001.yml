@@ -4,14 +4,14 @@ header: |
   Test publishing
 level: 1.1.1
 links:
-- SWRS0001: 96ZZ0xWLF-JZGeFnBoiQ15IfDQeCjLpRvWzN-KkIF7Q=
+- SWRS0001: Xnfyc_ROrsEvbpiNQJ4SAazcLpTfiStZo9WkcS-Jrz0=
 normative: true
 ref: ''
 references:
 - keyword: SWVER0001
   path: tests/test.cpp
   type: file
-reviewed: cAs9JMe4NBFccItyEgcOD7CpFFq2mLgFXtZ2RAkcvjg=
+reviewed: WEDRPhf4eRD7O7Xmmvw-rnCNl0_oFYtWcg9TBnPsscs=
 text: |
   **This test _shall_ verify `SWRS0001` by doing `x`.**
 

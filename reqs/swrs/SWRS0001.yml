@@ -13,7 +13,7 @@ references:
 - keyword: SWRS0001
   path: include/requirements-testing/example.hpp
   type: file
-reviewed: Uhgihr-6qlLlZxn2ruikfKCzr3BqYYRwuJa_2s0R3VQ=
+reviewed: skOq2OtHAk2akDVYNrV07oDlxRtfMwoLQbCoWr3MIH8=
 text: |
   **The localization system _must_ publish a pose at a rate of `x Hz`.**
 
