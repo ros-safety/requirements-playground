@@ -7,8 +7,16 @@ links:
 - SYS0001: GcsrtJwu_-e7nb9jRE9N5Ya7bYIbAF0aRpko1pWqtDU=
 normative: true
 ref: ''
+references:
+- path: src/example.cpp
+  type: file
+- keyword: SWRS0001
+  path: include/requirements-testing/example.hpp
+  type: file
 reviewed: Uhgihr-6qlLlZxn2ruikfKCzr3BqYYRwuJa_2s0R3VQ=
 text: |
   **The localization system _must_ publish a pose at a rate of `x Hz`.**
 
   Detailed comments about frequency computation and rationale for requirement.
+
+  This also shows linkage to cpp files, optionally also with line numbers:

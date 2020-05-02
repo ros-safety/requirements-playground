@@ -7,6 +7,12 @@ links:
 - SWRS0001: 96ZZ0xWLF-JZGeFnBoiQ15IfDQeCjLpRvWzN-KkIF7Q=
 normative: true
 ref: ''
+references:
+- keyword: SWVER0001
+  path: tests/test.cpp
+  type: file
 reviewed: cAs9JMe4NBFccItyEgcOD7CpFFq2mLgFXtZ2RAkcvjg=
 text: |
   **This test _shall_ verify `SWRS0001` by doing `x`.**
+
+  This also shows linkage to cpp files, optionally also with line numbers:
