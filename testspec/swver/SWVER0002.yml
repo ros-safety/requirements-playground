@@ -1,11 +1,19 @@
 active: true
 derived: false
-header: ''
-level: 1.1
+header: |
+  Test publishing
+level: 1.1.2
 links:
-- SWRS0001: vvL8wfp-kD5j_P4ycF_bErh6MXYKFcEoEyJR6FC4XaU=
-- SWRS0002: SaN6Vo-b2VPfbeAFr5ErQXKKo--EGuQady4oS3OCbMU=
+- SWRS0001: 96ZZ0xWLF-JZGeFnBoiQ15IfDQeCjLpRvWzN-KkIF7Q=
+- SWRS0002: o7Ue_YdhOd7GVlAjmJqGOkONteLcwJTlq-w22BOH5FI=
 normative: true
 ref: ''
-reviewed: CzqETedKR-GfwdLQsi7ShJuj7WkJKkazAvjWj6xfNfk=
-text: ''
+reviewed: eErPp_bsJgythXlIB7qBix8dZTF_TfxvJ6JNh_pZp-g=
+text: |
+  **This test _shall_ verify `SWRS0001` and `SWRS0002` by doing `y`.**
+
+  The test is to be conducted as follows:
+
+  - Set up test rig
+  - Execute the test
+  - Record the results and store at `z`

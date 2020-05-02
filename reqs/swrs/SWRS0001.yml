@@ -4,10 +4,10 @@ header: |
   Publish frequency
 level: 1.1.1
 links:
-- SYS0001: OpFh8gymOJ8R2l6GNFp5RcP12WKIAy0H-pu2myTXoOI=
+- SYS0001: GcsrtJwu_-e7nb9jRE9N5Ya7bYIbAF0aRpko1pWqtDU=
 normative: true
 ref: ''
-reviewed: vvL8wfp-kD5j_P4ycF_bErh6MXYKFcEoEyJR6FC4XaU=
+reviewed: Uhgihr-6qlLlZxn2ruikfKCzr3BqYYRwuJa_2s0R3VQ=
 text: |
   **The localization system _must_ publish a pose at a rate of `x Hz`.**
 

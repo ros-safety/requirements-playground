@@ -1,11 +1,24 @@
 active: true
 derived: false
-header: ''
-level: 1.0
+header: |
+  Localization and control
+level: 1.1
 links:
-- SYS0001: OpFh8gymOJ8R2l6GNFp5RcP12WKIAy0H-pu2myTXoOI=
-- SYS0002: p7r_v7oJA6Slu6nME_g_omhgFihoLqM_iN7YbaLw-PI=
+- SYS0001: GcsrtJwu_-e7nb9jRE9N5Ya7bYIbAF0aRpko1pWqtDU=
+- SYS0002: HPmkl_GyvNURFAJOM4TgNiqbnJRI3_sR7ToHD_Jh-gI=
 normative: true
 ref: ''
-reviewed: v-rqcqTqItnjWqG0_TRMxpITuIoqC4QCg1hN3gXkiwE=
-text: ''
+reviewed: c4-MDpC5CIVd68FsGhzGK-wzmO7EReDf2yXqjEBMO14=
+text: |
+  **This test _shall_ verify pose computation and publishing by doing `z`.**
+
+  Localization and control are in fact not exercised in this system-level test.
+  This is just an example description of an example requirement.
+
+  Some more content and description of the test:
+
+  - Set up a
+  - Set up b
+  - Observe c
+  - Store c
+  - Summarize findings in report d

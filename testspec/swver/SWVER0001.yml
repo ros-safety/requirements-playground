@@ -1,10 +1,12 @@
 active: true
 derived: false
-header: ''
-level: 1.0
+header: |
+  Test publishing
+level: 1.1.1
 links:
-- SWRS0001: vvL8wfp-kD5j_P4ycF_bErh6MXYKFcEoEyJR6FC4XaU=
+- SWRS0001: 96ZZ0xWLF-JZGeFnBoiQ15IfDQeCjLpRvWzN-KkIF7Q=
 normative: true
 ref: ''
-reviewed: Frb4z2XtxzCzNx20el3wBvI8Dz6cbUZgXMe22RGy1yc=
-text: ''
+reviewed: cAs9JMe4NBFccItyEgcOD7CpFFq2mLgFXtZ2RAkcvjg=
+text: |
+  **This test _shall_ verify `SWRS0001` by doing `x`.**

@@ -6,7 +6,7 @@ level: 1.3.1
 links: []
 normative: true
 ref: ''
-reviewed: y5HjC3jAZrO8_vZJWb5g6-Z1HAy7Kmz0XNwaskyLQPM=
+reviewed: TxQ3LCHZu6OS02GPgB44tFEt174Q1G9KPrNCrAcrUiY=
 text: |
   **The control system _shall_ compute an accurate control command.**
 

@@ -4,11 +4,12 @@ header: |
   Another thing
 level: 1.1.2
 links:
-- SYS0001: OpFh8gymOJ8R2l6GNFp5RcP12WKIAy0H-pu2myTXoOI=
-- SYS0002: p7r_v7oJA6Slu6nME_g_omhgFihoLqM_iN7YbaLw-PI=
+- SYS0001: GcsrtJwu_-e7nb9jRE9N5Ya7bYIbAF0aRpko1pWqtDU=
+- SYS0002: HPmkl_GyvNURFAJOM4TgNiqbnJRI3_sR7ToHD_Jh-gI=
+- SYS0003: TxQ3LCHZu6OS02GPgB44tFEt174Q1G9KPrNCrAcrUiY=
 normative: true
 ref: ''
-reviewed: SaN6Vo-b2VPfbeAFr5ErQXKKo--EGuQady4oS3OCbMU=
+reviewed: 7D_0dI4Tb2GJvyVnjDT4IVDLoIVwhvSszjHBSn18c8c=
 text: |
   **The localization system _must_ do `x` at `y`.**
 

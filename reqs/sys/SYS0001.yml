@@ -6,7 +6,7 @@ level: 1.1.1
 links: []
 normative: true
 ref: ''
-reviewed: OpFh8gymOJ8R2l6GNFp5RcP12WKIAy0H-pu2myTXoOI=
+reviewed: GcsrtJwu_-e7nb9jRE9N5Ya7bYIbAF0aRpko1pWqtDU=
 text: |
   **The localization system _shall_ compute a valid pose.**
 
