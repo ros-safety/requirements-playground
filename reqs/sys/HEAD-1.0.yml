@@ -1,0 +1,21 @@
+active: true
+derived: false
+header: ''
+level: 1.0
+links: []
+normative: false
+ref: ''
+reviewed: Qlm-r-2tmbsyu3GDr03vAZ3ZK1iulOJT6Bh6ulsZeqI=
+text: |
+  System requirements
+
+  Here is an example of how pictures stored in the *git* repository can be
+  referred in the requirements document:
+
+  ![Autoware Logo](assets/autoware-logo.png "Autoware logo")
+
+  The overall system consists of many components. See [Autoware.Auto](https://www.autoware.auto/).
+
+  blockdiag {
+    Localization -> Planning -> Control;
+  }

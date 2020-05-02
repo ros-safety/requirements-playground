@@ -1,0 +1,13 @@
+active: true
+derived: false
+header: ''
+level: 1.2.0
+links: []
+normative: false
+ref: ''
+reviewed: zpHmtNu6mtkLqMT4ZKgI4rgKBBxZlYBiikpSddC7ljw=
+text: |
+  Planning
+
+  The planner generates a trajectory. Here is some general introduction to the
+  planner but no requirements are specified yet.

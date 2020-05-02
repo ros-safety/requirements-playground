@@ -1,9 +1,12 @@
 active: true
 derived: false
-header: ''
-level: 1.1
+header: |
+  Publishing
+level: 1.1.2
 links: []
 normative: true
 ref: ''
-reviewed: p7r_v7oJA6Slu6nME_g_omhgFihoLqM_iN7YbaLw-PI=
-text: ''
+reviewed: HPmkl_GyvNURFAJOM4TgNiqbnJRI3_sR7ToHD_Jh-gI=
+text: |
+  **The localization system _shall_ make the most recent pose estimate**
+  available at `x Hz`.

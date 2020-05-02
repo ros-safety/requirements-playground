@@ -1,9 +1,14 @@
 active: true
 derived: false
-header: ''
-level: 1.0
+header: |
+  Pose computation
+level: 1.1.1
 links: []
 normative: true
 ref: ''
 reviewed: OpFh8gymOJ8R2l6GNFp5RcP12WKIAy0H-pu2myTXoOI=
-text: ''
+text: |
+  **The localization system _shall_ compute a valid pose.**
+
+  This is because a valid pose is required for planning and control to
+  function.

@@ -1,10 +1,14 @@
 active: true
 derived: false
-header: ''
-level: 1.0
+header: |
+  Publish frequency
+level: 1.1.1
 links:
 - SYS0001: OpFh8gymOJ8R2l6GNFp5RcP12WKIAy0H-pu2myTXoOI=
 normative: true
 ref: ''
 reviewed: vvL8wfp-kD5j_P4ycF_bErh6MXYKFcEoEyJR6FC4XaU=
-text: ''
+text: |
+  **The localization system _must_ publish a pose at a rate of `x Hz`.**
+
+  Detailed comments about frequency computation and rationale for requirement.

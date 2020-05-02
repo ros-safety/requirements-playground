@@ -1,9 +1,13 @@
 active: true
 derived: false
-header: ''
-level: 1.2
+header: |
+  Control computation
+level: 1.3.1
 links: []
 normative: true
 ref: ''
 reviewed: y5HjC3jAZrO8_vZJWb5g6-Z1HAy7Kmz0XNwaskyLQPM=
-text: ''
+text: |
+  **The control system _shall_ compute an accurate control command.**
+
+  This is an example of a bad, _non-verifiable_ requirement.

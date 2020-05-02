@@ -1,0 +1,17 @@
+active: true
+derived: false
+header: ''
+level: 1.0
+links: []
+normative: false
+ref: ''
+reviewed: tjk6CCQUWSf2DiJVs2Usa-4SOunR8qvTE2GxijK6d2g=
+text: |
+  Localization system requirements
+
+  The localization system is a *key* component of the [Autoware.Auto](https://www.autoware.auto/) system.
+
+  blockdiag {
+    A -> B -> C;
+    B -> D;
+  }
