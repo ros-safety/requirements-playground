@@ -1,0 +1,5 @@
+settings:
+  digits: 4
+  parent: SWRS
+  prefix: SWVER
+  sep: ''

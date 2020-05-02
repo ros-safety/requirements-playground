@@ -1,0 +1,4 @@
+settings:
+  digits: 4
+  prefix: SYS
+  sep: ''
