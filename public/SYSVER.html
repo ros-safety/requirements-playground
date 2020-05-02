@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head><title>Doorstop</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="assets/doorstop/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/doorstop/general.css" />
+  <link type="text/css" rel="stylesheet" href="assets/doorstop/sidebar.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" ></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+  </script>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 hidden-sm hidden-xs">
+          <nav id="TOC" class="nav nav-stacked fixed sidebar">
+              <section class="section3"><h3>Table of Contents</h3>
+<ul>
+<li><a href="#HEAD-1.0">1.0 System verification</a><ul>
+<li><a href="#SYSVER0001">1.1 Localization and control</a></li>
+</ul>
+</li>
+</ul>
+</section>
+          </nav>
+      </div>
+      <div class="col-lg-8" id="main">
+        <section class="section1" id="HEAD-1.0"><h1>1.0 System verification</h1>
+<p>This document outlines the verification tests at the system level.</p>
+<section class="section2" id="SYSVER0001"><h2>1.1 Localization and control <small>SYSVER0001</small></h2>
+<p><strong>This test <em>shall</em> verify pose computation and publishing by doing <code>z</code>.</strong></p>
+<p>Localization and control are in fact not exercised in this system-level test.
+This is just an example description of an example requirement.</p>
+<p>Some more content and description of the test:</p>
+<ul>
+<li>Set up a</li>
+<li>Set up b</li>
+<li>Observe c</li>
+<li>Store c</li>
+<li>Summarize findings in report d</li>
+</ul>
+<p><em>Parent links:</em> <a href="SYS.html#SYS0001">SYS0001 Pose computation</a>, <a href="SYS.html#SYS0002">SYS0002 Publishing</a></p>
+</section></section>
+      </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/doorstop/jquery.min.js"></script>
+<script src="assets/doorstop/bootstrap.min.js"></script>
+<script>
+    $(function() {
+        $("table").addClass("table");
+        $("nav ul").addClass("nav nav-stacked");
+        $("nav").affix();
+        $('body').scrollspy({
+          target: '.sidebar'
+        });
+        $("#main a").attr("target", "parent");
+
+  $(window).on('hashchange', function() {
+    $(window).scrollTop($(location.hash.toLowerCase()).offset().top);});
+  });
+</script>
+</body>
+</html>
+

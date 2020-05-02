@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head><title>Doorstop</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="assets/doorstop/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/doorstop/general.css" />
+  <link type="text/css" rel="stylesheet" href="assets/doorstop/sidebar.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" ></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+  </script>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 hidden-sm hidden-xs">
+          <nav id="TOC" class="nav nav-stacked fixed sidebar">
+              <section class="section3"><h3>Table of Contents</h3>
+<ul>
+<li><a href="#HEAD-1.0">1.0 Localization system requirements</a><ul>
+<li><a href="#HEAD-1.1">1.1 Pose generation</a><ul>
+<li><a href="#SWRS0001">1.1.1 Publish frequency</a></li>
+<li><a href="#SWRS0002">1.1.2 Another thing</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+          </nav>
+      </div>
+      <div class="col-lg-8" id="main">
+        <section class="section1" id="HEAD-1.0"><h1>1.0 Localization system requirements</h1>
+<p>The localization system is a <em>key</em> component of the <a href="https://www.autoware.auto/">Autoware.Auto</a> system.</p>
+<p><img src="data:image/png;base64,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" /></p>
+<section class="section2" id="HEAD-1.1"><h2>1.1 Pose generation</h2>
+<section class="section3" id="SWRS0001"><h3>1.1.1 Publish frequency <small>SWRS0001</small></h3>
+<p><strong>The localization system <em>must</em> publish a pose at a rate of <code>x Hz</code>.</strong></p>
+<p>Detailed comments about frequency computation and rationale for requirement.</p>
+<p><em>Parent links:</em> <a href="SYS.html#SYS0001">SYS0001 Pose computation</a></p>
+<p><em>Child links:</em> <a href="SWVER.html#SWVER0001">SWVER0001 Test publishing</a>, <a href="SWVER.html#SWVER0002">SWVER0002 Test publishing</a></p>
+</section><section class="section3" id="SWRS0002"><h3>1.1.2 Another thing <small>SWRS0002</small></h3>
+<p><strong>The localization system <em>must</em> do <code>x</code> at <code>y</code>.</strong></p>
+<p>Detailed comments about another thing and rationale for requirement.</p>
+<p><em>Parent links:</em> <a href="SYS.html#SYS0001">SYS0001 Pose computation</a>, <a href="SYS.html#SYS0002">SYS0002 Publishing</a>, <a href="SYS.html#SYS0003">SYS0003 Control computation</a></p>
+<p><em>Child links:</em> <a href="SWVER.html#SWVER0002">SWVER0002 Test publishing</a>, <a href="SWVER.html#SWVER0003">SWVER0003 Test something else</a></p>
+</section></section></section>
+      </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/doorstop/jquery.min.js"></script>
+<script src="assets/doorstop/bootstrap.min.js"></script>
+<script>
+    $(function() {
+        $("table").addClass("table");
+        $("nav ul").addClass("nav nav-stacked");
+        $("nav").affix();
+        $('body').scrollspy({
+          target: '.sidebar'
+        });
+        $("#main a").attr("target", "parent");
+
+  $(window).on('hashchange', function() {
+    $(window).scrollTop($(location.hash.toLowerCase()).offset().top);});
+  });
+</script>
+</body>
+</html>
+

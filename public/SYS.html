@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head><title>Doorstop</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" href="assets/doorstop/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/doorstop/general.css" />
+  <link type="text/css" rel="stylesheet" href="assets/doorstop/sidebar.css" />
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" ></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+  });
+  </script>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-2 hidden-sm hidden-xs">
+          <nav id="TOC" class="nav nav-stacked fixed sidebar">
+              <section class="section3"><h3>Table of Contents</h3>
+<ul>
+<li><a href="#HEAD-1.0">1.0 System requirements</a><ul>
+<li><a href="#HEAD-1.1">1.1 Localization</a><ul>
+<li><a href="#SYS0001">1.1.1 Pose computation</a></li>
+<li><a href="#SYS0002">1.1.2 Publishing</a></li>
+</ul>
+</li>
+<li><a href="#HEAD-1.2">1.2 Planning</a></li>
+<li><a href="#HEAD-1.3">1.3 Control</a><ul>
+<li><a href="#SYS0003">1.3.1 Control computation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</section>
+          </nav>
+      </div>
+      <div class="col-lg-8" id="main">
+        <section class="section1" id="HEAD-1.0"><h1>1.0 System requirements</h1>
+<p>Here is an example of how pictures stored in the <em>git</em> repository can be
+referred in the requirements document:</p>
+<p><img alt="Autoware Logo" src="assets/autoware-logo.png" title="Autoware logo" /></p>
+<p>The overall system consists of many components. See <a href="https://www.autoware.auto/">Autoware.Auto</a>.</p>
+<p><img src="data:image/png;base64,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" /></p>
+<section class="section2" id="HEAD-1.1"><h2>1.1 Localization</h2>
+<section class="section3" id="SYS0001"><h3>1.1.1 Pose computation <small>SYS0001</small></h3>
+<p><strong>The localization system <em>shall</em> compute a valid pose.</strong></p>
+<p>This is because a valid pose is required for planning and control to
+function.</p>
+<p><em>Child links:</em> <a href="SYSVER.html#SYSVER0001">SYSVER0001 Localization and control</a>, <a href="SWRS.html#SWRS0001">SWRS0001 Publish frequency</a>, <a href="SWRS.html#SWRS0002">SWRS0002 Another thing</a></p>
+</section><section class="section3" id="SYS0002"><h3>1.1.2 Publishing <small>SYS0002</small></h3>
+<p><strong>The localization system <em>shall</em> make the most recent pose estimate</strong>
+available at <code>x Hz</code>.</p>
+<p><em>Child links:</em> <a href="SYSVER.html#SYSVER0001">SYSVER0001 Localization and control</a>, <a href="SWRS.html#SWRS0002">SWRS0002 Another thing</a></p>
+</section></section><section class="section2" id="HEAD-1.2"><h2>1.2 Planning</h2>
+<p>The planner generates a trajectory. Here is some general introduction to the
+planner but no requirements are specified yet.</p>
+</section><section class="section2" id="HEAD-1.3"><h2>1.3 Control</h2>
+<section class="section3" id="SYS0003"><h3>1.3.1 Control computation <small>SYS0003</small></h3>
+<p><strong>The control system <em>shall</em> compute an accurate control command.</strong></p>
+<p>This is an example of a bad, <em>non-verifiable</em> requirement.</p>
+<p><em>Child links:</em> <a href="SWRS.html#SWRS0002">SWRS0002 Another thing</a></p>
+</section></section></section>
+      </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="assets/doorstop/jquery.min.js"></script>
+<script src="assets/doorstop/bootstrap.min.js"></script>
+<script>
+    $(function() {
+        $("table").addClass("table");
+        $("nav ul").addClass("nav nav-stacked");
+        $("nav").affix();
+        $('body').scrollspy({
+          target: '.sidebar'
+        });
+        $("#main a").attr("target", "parent");
+
+  $(window).on('hashchange', function() {
+    $(window).scrollTop($(location.hash.toLowerCase()).offset().top);});
+  });
+</script>
+</body>
+</html>
+
