@@ -8,14 +8,16 @@ doorstop:
   script:
     - 'apt-get update && apt-get -y --no-install-recommends install
           git
+	  python3-setuptools
 	  python3-pip
 	  ca-certificates
       '
     # update pip
-    - python3 -m pip install pip --upgrade
+    - python3 -m pip install pip setuptools --upgrade
+    - python3 -m pip install wheel
     # install latest doorstop
     - git clone https://github.com/doorstop-dev/doorstop.git
-    - 'cd doorstop && pip3 install .'
+    - 'cd doorstop && pip install .'
     - 'cd .. && rm -rf doorstop'
     # run doorstop
     - 'doorstop &> doorstop.log'
