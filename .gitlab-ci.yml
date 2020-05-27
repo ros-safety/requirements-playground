@@ -1,0 +1,35 @@
+stages:
+  - build
+  - deploy
+
+doorstop:
+  stage: build
+  image: ubuntu:bionic
+  script:
+    - 'apt-get update && apt-get -y --no-install-recommends install
+          git
+      '
+    - git clone https://github.com/doorstop-dev/doorstop.git
+    - 'cd doorstop && pip3 install .'
+    - 'cd .. && rm -rf doorstop'
+    - 'doorstop &> doorstop.log'
+    - '! grep "WARNING:" doorstop.log'
+    - doorstop publish all ./docs
+  artifacts:
+    expire_in: 1 day
+    when: always
+    paths:
+      - doorstop.log
+      - docs
+
+pages:
+  stage: deploy
+  image: alpine
+  dependencies:
+    - docs
+  script:
+    - mv docs public
+  artifacts:
+    name: "$CI_JOB_NAME"
+    paths:
+      - public
