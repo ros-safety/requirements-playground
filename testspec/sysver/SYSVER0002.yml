@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: |
+  Test linking across branches
+level: 1.2
+links:
+- SWRS0003: o7Ue_YdhOd7GVlAjmJqGOkONteLcwJTlq-w22BOH5FI=
+normative: true
+ref: ''
+reviewed: PpxgsAdYi1xlAxNY9jArRP84a6Utv5MsibGdA997Nu4=
+text: |
+  This should have a parent listed as SWRS0003, and SWRS0003 should list this as a child.

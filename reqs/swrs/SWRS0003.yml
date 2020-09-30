@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: |
+  Test linking across branches
+level: 1.1.3
+links: []
+normative: true
+ref: ''
+reviewed: null
+text: |
+  This should have SYSVER002 listed as a child and SYSVER002 should list this as a parent.
